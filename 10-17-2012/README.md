@@ -3,9 +3,20 @@ Northern Utah Data Science group meetup slides, notes, etc.
 
 ## Agenda
 - Intro to NUDSG
-- What do you want to learn/do?
+- Who are you? What do you want to learn/do?
 - Approaches to Data Science
-- The Data Science Toolkit
+- Tools
+  - Git & Github
+  - Python & Pandas
+  - R
+  - The Data Science Toolkit
+- Data
+  - Kaggle.com
+  - Data.gov
+- Steve Park
+  - Intro to R
+  - Exploring data
+
 
 ## Approaches to Data Science (campeterson)
 - https://github.com/NUDSG/approches-to-data-science
