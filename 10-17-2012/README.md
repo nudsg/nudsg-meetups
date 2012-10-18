@@ -18,9 +18,26 @@ Northern Utah Data Science group meetup slides, notes, etc.
   - Exploring data
 
 
-## Approaches to Data Science (campeterson)
+## Cam Peterson
+### Approaches to Data Science (campeterson)
 - https://github.com/NUDSG/approches-to-data-science
-- http://www.hilarymason.com/blog/how-do-you-prioritize-research/
 
-## Intro to the Data Science Toolkit (campeterson)
+### Intro to the Data Science Toolkit (campeterson)
 - http://www.datasciencetoolkit.org/
+
+### Open Wait Times
+- http://www.openwaittimes.com/
+- https://github.com/campeterson/openwaittimes
+
+
+## Steve Park
+### Intro to R
+
+Links
+- http://r4stats.com/
+- 
+### Exploring Data
+
+Links
+-
+-
