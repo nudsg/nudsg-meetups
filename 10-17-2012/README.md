@@ -21,6 +21,9 @@ Northern Utah Data Science group meetup slides, notes, etc.
 ## Cam Peterson
 ### Approaches to Data Science (campeterson)
 - https://github.com/NUDSG/approches-to-data-science
+- Jeff Hammerbacher - http://www.youtube.com/watch?v=1-OuiACT8J8
+- Introduction to Data Science Course - http://berkeleydatascience.files.wordpress.com/2012/01/20120117berkeley1.pdf
+- What is Data Science - http://radar.oreilly.com/2010/06/what-is-data-science.html
 
 ### Intro to the Data Science Toolkit (campeterson)
 - http://www.datasciencetoolkit.org/
@@ -35,9 +38,7 @@ Northern Utah Data Science group meetup slides, notes, etc.
 
 Links
 - http://r4stats.com/
-- 
+
 ### Exploring Data
 
 Links
--
--
