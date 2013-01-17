@@ -1,5 +1,8 @@
 # 01-10-2012 Meetup
 
+## R Introduction
+http://www.r-tutor.com/r-introduction
+
 ## Try R
 http://tryr.codeschool.com
 
