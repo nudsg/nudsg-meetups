@@ -27,7 +27,15 @@ https://github.com/bitly/data_hacks
 
 ## Exercise
 
-http://www.ntsb.gov/aviationquery/download.ashx?type=csv (AviationData.txt)
+### Some Data
+
+https://gist.github.com/campeterson/5946446
+
+### Get the file
+    wget http://www.bit.ly/aviationquery
+
+### Rename the file to AviationData.txt
+    mv aviationquery AviationData.txt
 
 ### How many lines?
     cat AviationData.txt | wc -l 
