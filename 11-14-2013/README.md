@@ -63,12 +63,15 @@ Looks like it's "|" delimited
 
 ### Let's use 'sort' & 'uniq' (Goal: Top 50 most accident prone aircraft makes)
 We will count the occurance of each 'make'
+
     cat AviationData.txt | awk '{split($0,a,"|"); print a[15]}' | sort | uniq -c
 
 Better sort them again from highest to lowest
+
     cat AviationData.txt | awk '{split($0,a,"|"); print a[15]}' | sort | uniq -c | sort -rn
 
 And just show the top 50
+
     cat AviationData.txt | awk '{split($0,a,"|"); print a[15]}' | sort | uniq -c | sort -rn | head -n 50
 
 #### Question: is there more to the story here?
@@ -78,6 +81,7 @@ And just show the top 50
 
 ### Clean up some duplicates by uppercasing them all
 Compare:
+
     cat AviationData.txt | awk '{split($0,a,"|"); print a[15]}' | sort | uniq -c | sort -rn | head -n 50
 
     15931  CESSNA
@@ -93,6 +97,7 @@ Compare:
      774  Boeing
 
 With:
+
     cat AviationData.txt | awk '{split($0,a,"|"); print a[15]}' | tr '[:lower:]' '[:upper:]' | sort | uniq -c | sort -rn | head -n 50
 
     23675  CESSNA
@@ -103,10 +108,12 @@ With:
 
 ### Using 'grep'
 Show only "CESSNA" accidents
+
     cat AviationData.txt | grep "CESSNA" | awk '{split($0,a,"|"); print a[4],a[15],a[16]}'
 
 ### Using 'cut' (Goal: Show "CESSNA" accident occurances by year)
 Remove first part of 'date'
+
     cat AviationData.txt | grep "CESSNA" | awk '{split($0,a,"|"); print a[4]}' | cut -c8- | head
 
 Sort and Uniq
