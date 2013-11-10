@@ -117,6 +117,7 @@ Remove first part of 'date'
     cat AviationData.txt | grep "CESSNA" | awk '{split($0,a,"|"); print a[4]}' | cut -c8- | head
 
 Sort and Uniq
+
     cat AviationData.txt | grep "CESSNA" | awk '{split($0,a,"|"); print a[4]}' | cut -c8- | sort -rn | uniq -c
 
 ------------
